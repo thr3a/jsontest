@@ -6,8 +6,9 @@ git_source(:github) do |repo_name|
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.1.1'
+gem 'rails', '~> 5.0'
 
 gem 'oj'
 gem 'benchmark-ips'
 gem 'ruby-prof'
+gem "yajl-ruby"
